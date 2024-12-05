@@ -1,0 +1,122 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: /* #3B3B3B;*/ linear-gradient(135deg, #4B2C3E, #FFD700);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main{
+    padding-top: 100px;
+}
+
+h3 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.top-nav h3{
+    color: #B22222;
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.top-nav {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFD700;
+    padding: 10px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+}
+
+.top-nav a {
+    flex: 3;
+    text-align: center;
+    color: #B22222;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.top-nav .search-container{
+    flex: 1;
+    text-align: center;
+}
+
+.top-nav .review_container{
+    flex: 1;
+    text-align: center;
+    color: #B22222;
+}
+
+form{
+    background-color: #d7b95e;
+    width: 200px;
+    height: 34px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    all: unset;
+    font: 15px system-ui;
+    color: #3B3B3B;
+    height: 100%;
+    width: 100%;
+    padding: 6px, 9px;
+    text-align: center;
+}
+
+.thumbnail{
+    height: auto;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.card{
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    background-color: #edab48;
+    width: fit-content;
+    margin: 10px;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: small;
+    color: #3B3B3B;
+    padding: 15px;
+}
+
+.card .review_modifier{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
